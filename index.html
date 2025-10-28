@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polar - Aplicación Web y Escritorio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Polar</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#aplicacion">Aplicación Web</a></li>
+                <li><a href="#descargas">Descargas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Bienvenido a Polar</h2>
+                <p>Tu solución completa para gestión y productividad</p>
+                <div class="cta-buttons">
+                    <a href="#aplicacion" class="btn btn-primary">Usar App Web</a>
+                    <a href="#descargas" class="btn btn-secondary">Descargar Desktop</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="aplicacion" class="web-app">
+            <div class="container">
+                <h2>Aplicación Web</h2>
+                <p>Usa Polar directamente desde tu navegador</p>
+                <div class="app-container">
+                    <div class="app-interface">
+                        <h3>Panel de Control</h3>
+                        <div class="app-features">
+                            <div class="feature">
+                                <h4>📊 Dashboard</h4>
+                                <p>Visualiza tus métricas en tiempo real</p>
+                            </div>
+                            <div class="feature">
+                                <h4>📝 Notas</h4>
+                                <p>Gestiona tus tareas y proyectos</p>
+                            </div>
+                            <div class="feature">
+                                <h4>🔔 Notificaciones</h4>
+                                <p>Mantente al día con alertas importantes</p>
+                            </div>
+                            <div class="feature">
+                                <h4>⚙️ Configuración</h4>
+                                <p>Personaliza tu experiencia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="descargas" class="downloads">
+            <div class="container">
+                <h2>Aplicación de Escritorio</h2>
+                <p>Descarga la versión premium para escritorio con funciones avanzadas</p>
+                
+                <div class="download-cards">
+                    <div class="download-card">
+                        <div class="os-icon">🪟</div>
+                        <h3>Windows</h3>
+                        <p>Compatible con Windows 10 y 11</p>
+                        <p class="version">Versión 1.0.0</p>
+                        <a href="downloads/polar-windows.exe" class="btn btn-download" download>
+                            Descargar para Windows
+                        </a>
+                        <p class="price">$29.99 USD</p>
+                    </div>
+
+                    <div class="download-card">
+                        <div class="os-icon">🍎</div>
+                        <h3>macOS</h3>
+                        <p>Compatible con macOS 10.15+</p>
+                        <p class="version">Versión 1.0.0</p>
+                        <a href="downloads/polar-macos.dmg" class="btn btn-download" download>
+                            Descargar para macOS
+                        </a>
+                        <p class="price">$29.99 USD</p>
+                    </div>
+
+                    <div class="download-card">
+                        <div class="os-icon">🐧</div>
+                        <h3>Linux</h3>
+                        <p>Compatible con Ubuntu 20.04+</p>
+                        <p class="version">Versión 1.0.0</p>
+                        <a href="downloads/polar-linux.AppImage" class="btn btn-download" download>
+                            Descargar para Linux
+                        </a>
+                        <p class="price">$29.99 USD</p>
+                    </div>
+                </div>
+
+                <div class="download-info">
+                    <h3>Características Premium</h3>
+                    <ul>
+                        <li>✅ Sincronización offline</li>
+                        <li>✅ Funciones avanzadas de análisis</li>
+                        <li>✅ Soporte prioritario</li>
+                        <li>✅ Sin publicidad</li>
+                        <li>✅ Actualizaciones automáticas</li>
+                        <li>✅ Temas personalizables</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>¿Tienes preguntas? Contáctanos</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Polar. Todos los derechos reservados.</p>
+            <p>nn dialectico</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
